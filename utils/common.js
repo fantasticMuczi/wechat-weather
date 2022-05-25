@@ -1,12 +1,12 @@
 var cityBank=[];
 var homeIndex=0;
 var bmap = require('bmap-wx.js'); 
-function init(){
+function init(){ 
     // 首先查看是不是有数据
-    try {
+    try { 
         var BMap = new bmap.BMapWX({ 
             ak: 'UnMeMmKOwfL2jYjTq1VU3TAgCIsqb6Gf' 
-        });
+        }); 
         var fail = function(data) { 
             console.log(data) 
         }; 
