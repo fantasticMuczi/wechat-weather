@@ -22,17 +22,17 @@ Page({
     animationW: {},
     animationM: {},
     theWeather: {
-      weatherIcon: "/images/w/w01",
+      weatherIcon: "/images/w/w05",
       date: 22,
-      currentCity: "南京",
-      weatherDesc: "多云",
+      currentCity: "长沙",
+      weatherDesc: "雨",
       pm25: 67,
       temperature: "24 ~ 14",
       wind: " 无风 "
     },
     cityMenus: [],
     today : "2017-05-01",
-    wall:"/images/clearday"
+    wall:"/images/rainyday"
   },
   setMenuNatural: function(){
     var that=this;
