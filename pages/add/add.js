@@ -1,5 +1,4 @@
 // pages/add/add.js
- 
 var common = require('../../utils/common.js');
 var xjCitys={};
 Page({
